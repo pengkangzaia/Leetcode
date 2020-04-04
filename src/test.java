@@ -25,5 +25,6 @@ public class test {
         long end = System.currentTimeMillis();
         System.out.println("计算时长："+(end-start)+"毫秒");
         System.out.println("字符串最大子串的长度为： "+length);
+        System.out.println("test");
     }
 }
