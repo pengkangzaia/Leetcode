@@ -1,4 +1,4 @@
-package datastructure1.sort;
+package datastructure.sort;
 
 /**
  * 插入排序

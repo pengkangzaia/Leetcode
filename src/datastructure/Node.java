@@ -1,7 +1,7 @@
-package datastructure1;
+package datastructure;
 
 /**
- * 数的结点
+ * 树的结点
  */
 public class Node {
 
