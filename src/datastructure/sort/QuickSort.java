@@ -3,13 +3,12 @@ package datastructure.sort;
 public class QuickSort {
 
     public static void main(String[] args) {
-        int[] array = {1,1,1,8};
+        int[] array = {1, 1, 1, 8};
         quickSort(array, 0, array.length - 1);
         for (int a : array) {
             System.out.print(a + " ");
         }
     }
-
 
     public static void quickSort(int[] array, int left, int right) {
         if (left >= right) {
