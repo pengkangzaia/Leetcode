@@ -18,4 +18,22 @@ public class Question58_2 {
         return ans;
     }
 
+    // 牛客版
+    public String LeftRotateString(String str,int n) {
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+        int len = str.length();
+        int index = n % len;
+        char[] chars = str.toCharArray();
+        StringBuilder sb = new StringBuilder();
+        for (int i = index; i < len; i++) {
+            sb.append(chars[i]);
+        }
+        for (int i = 0; i < index; i++) {
+            sb.append(chars[i]);
+        }
+        return sb.toString();
+    }
+
 }
