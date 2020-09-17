@@ -1,6 +1,7 @@
 package MyAnswer.tree;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class No101 {
@@ -47,6 +48,34 @@ public class No101 {
 
     }
 
+    ArrayList<Integer> list = new ArrayList<>();
+    // 尝试2：中序遍历，不可以。中序遍历不能得到想要的结果
+    // [1,2,2,2,null,2]
+    public boolean isSymmetric2(TreeNode root) {
+
+        midTraverse(root);
+
+        Integer[] array = list.toArray(new Integer[list.size()]);
+        int start = 0;
+        int end = array.length - 1;
+        while (start <= end) {
+            if (!array[start].equals(array[end])) {
+                return false;
+            }
+            start++;
+            end--;
+        }
+        return true;
+    }
+
+    private void midTraverse(TreeNode root) {
+        if (root == null) return;
+        midTraverse(root.left);
+        list.add(root.val);
+        midTraverse(root.right);
+    }
+
+
     public static void main(String[] args) {
         TreeNode n1 = new TreeNode(1);
         TreeNode n2 = new TreeNode(2);
@@ -62,7 +91,7 @@ public class No101 {
         n3.left = n6;
         n3.right = n7;
         No101 no101 = new No101();
-        boolean flag = no101.isSymmetric(n1);
+        boolean flag = no101.isSymmetric2(n1);
         System.out.println(flag);
     }
 
