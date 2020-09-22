@@ -1,0 +1,934 @@
+<changelist name="Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]" date="1600783431356" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2020/9/22 22:03 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No1103.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No1103.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No1103.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No64.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No64.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No739.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No739.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/learn/SingleLinkedList.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/learn/SingleLinkedList.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/SingleLinkedList.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/No105.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No105.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/datastructure/BinaryTree.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/BinaryTree.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Question25.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question25.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question25.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/hard/No41.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/hard/No41.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No41.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/ListNode.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/ListNode.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/ListNode.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No55.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No55.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No55.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Question21.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question21.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question21.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/No102.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No102.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/test/ArryaTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/ArryaTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/No104.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No104.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Question14_1.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question14_1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question14_1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/datastructure/Node.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Node.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/sort/easy/No349.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/sort/easy/No349.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No349.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/datastructure/sort/SelectSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/SelectSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question47.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question47.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question48.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question48.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question53_1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question53_1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/No147.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/No147.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No147.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/No101.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No101.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/No236.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No236.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question49.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question49.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question46.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question46.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Question17.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question17.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question17.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No80.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No80.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No80.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question68_1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question68_1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/string/medium/No49.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No49.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No62.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No62.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question68_2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question68_2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Question13.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question13.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question13.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/test/HashMapTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/HashMapTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/No21.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/No21.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No21.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/No56.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/No56.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No56.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question58_1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question58_1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/No206.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/No206.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No206.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question12.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question12.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Question16.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question16.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question16.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question51.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question51.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/interview/Five7Two$1.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/interview/Five7Two$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Five7Two$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No274.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No274.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No274.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No136.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No136.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No136.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/No144.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No144.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/No160.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/No160.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No160.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/medium/ListNode.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/medium/ListNode.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/ListNode1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/test/MyInterface.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/MyInterface.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/No617.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No617.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/ListNode.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/ListNode.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/ListNode2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/bishi/PathTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/PathTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/medium/No19.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/medium/No19.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No19.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/dynamicprogramming/No198.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No198.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/sort/easy/No242.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/sort/easy/No242.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No242.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/test/ThreadLocalExample.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/ThreadLocalExample.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/medium/No61.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No61.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No34.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No34.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No169.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No169.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/SumofTwoNum.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/SumofTwoNum.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/SumofTwoNum.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/sort/easy/No350.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/sort/easy/No350.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No350.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No39.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No39.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/No114.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No114.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/No226.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No226.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/medium/No24.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No24.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Question39.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question39.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question39.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Question18.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question18.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question18.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/bishi/Question3.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question3.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question37.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question37.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No448.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No448.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No581.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No581.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No53.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No53.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question38.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question38.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question33.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question33.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question34.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question34.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question32_1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question32_1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question52.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question52.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/test/CompareTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/CompareTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/bishi/Question2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question19.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question19.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Question31.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question31.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question31.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/interview/Five7Two.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/interview/Five7Two.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Five7Two.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/No179.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/No179.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No179.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/datastructure/sort/MyRadixSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/MyRadixSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No287.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No287.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No287.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/string/medium/No22.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No22.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question63.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question63.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/medium/No142.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/medium/No142.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No142.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/TreeNode.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/TreeNode.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/test/MyClass.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/MyClass.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/MinStack.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/MinStack.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/MinStack.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/dynamicprogramming/No70.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No70.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/LeetcodeAnswer/No4.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/LeetcodeAnswer/No4.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No4.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/No179$LargerNumberComparator.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/No179$LargerNumberComparator.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No179$LargerNumberComparator.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/LeetcodeAnswer/No3.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/LeetcodeAnswer/No3.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No3.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Question35.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question35.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question35.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No27.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No27.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No27.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/sort/easy/No922.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/sort/easy/No922.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No922.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No46.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No46.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No48.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No48.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/interview/TenPointZeroOne.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/interview/TenPointZeroOne.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/TenPointZeroOne.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/queue/ArrayQueueDemo.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/queue/ArrayQueueDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/ArrayQueueDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question4.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question4.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/hard/No23.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No23.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/queue/MaxQueue.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/queue/MaxQueue.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/MaxQueue.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question3.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question32.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/datastructure/sort/HeapSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/HeapSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/datastructure/sort/ShellSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/ShellSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/string/No5.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No5.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/META-INF/Leetcode.kotlin_module" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question56_1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question56_1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question27.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question27.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/No538.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No538.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question26.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question26.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/No20isValid.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/No20isValid.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No20isValid.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/string/No17.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No17.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question28.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question28.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/datastructure/sort/QuickSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/QuickSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question32_2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question32_2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/datastructure/sort/MergeSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/MergeSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/test/FailSafe.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/FailSafe.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/No179$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No179$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/No94.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No94.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/No98.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No98.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/No75.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/No75.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No75.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/bishi/Question1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/datastructure/sort/BubbleSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/BubbleSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/queue/ArrayQueue.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/queue/ArrayQueue.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/ArrayQueue.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/No83.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/No83.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No83.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question60.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question60.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question62.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question62.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question64.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question64.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No15.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No15.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/test/CompareTest$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/CompareTest$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No11.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No11.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No11.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/string/ViolenceMatch.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/string/ViolenceMatch.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/ViolenceMatch.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question55_2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question55_2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No299.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No299.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No299.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/No297.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No297.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/test/TestClass.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/TestClass.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No189.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No189.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No189.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Node.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Node.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Node1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Question24.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question24.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question24.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No26.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No26.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No26.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/datastructure/sort/InsertionSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/InsertionSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/datastructure/sort/MyHeapSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/MyHeapSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Question22.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question22.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question22.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/No155.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/No155.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No155.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No275.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No275.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No275.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No33.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No33.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/No3LongestSubstring.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/No3LongestSubstring.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No3LongestSubstring.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/No543.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No543.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/dynamicprogramming/No322.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/dynamicprogramming/No322.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No322.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/tree/TreeNode.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/TreeNode1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question57.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question57.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question54.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question54.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/test/ReflectionTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/ReflectionTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/sort/easy/No976.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/sort/easy/No976.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No976.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/bishi/Question4.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question41.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/datastructure/QuickSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/QuickSort1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/datastructure/sort/RadixSort.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/RadixSort.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No283.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No283.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/ListNode.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/ListNode.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/ListNode3.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question36.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question36.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question32_3.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question32_3.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/stack/No9.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/stack/No9.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No9.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question50.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question50.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/No876.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/No876.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No876.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No122.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No122.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No122.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/test.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/test.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/test.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question53_2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question53_2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/No141.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/No141.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No141.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question61.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question61.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Question29.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question29.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question29.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/No234.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/easy/No234.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No234.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/string/medium/No22_1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No22_1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/learn/HeroNode.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/learn/HeroNode.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/HeroNode.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/dynamicprogramming/No121.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/dynamicprogramming/No121.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No121.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No217.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/easy/No217.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No217.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/sword2offer/Question14_2.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question14_2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question14_2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question58_2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question58_2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/No4findMedianSortedArrays.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/No4findMedianSortedArrays.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No4findMedianSortedArrays.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/learn/SingleLinkedListDemo.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/linkedlist/learn/SingleLinkedListDemo.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/SingleLinkedListDemo.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No134.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/array/medium/No134.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No134.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/No56$1.class" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/MyAnswer/sort/medium/No56$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/No56$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/bishi/Question4$Question.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question4$Question.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="out/production/Leetcode/sword2offer/Question55_1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_22_22_03_[Default_Changelist]/Question55_1.class" />
+  </binary>
+</changelist>
