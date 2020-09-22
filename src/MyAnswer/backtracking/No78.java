@@ -30,15 +30,33 @@ public class No78 {
     }
 
     public void traverse(int[] nums, LinkedList<Integer> path) {
+        // 不能直接加path啊
+        res.add(new LinkedList<>(path));
         if (path.size() == nums.length) {
-
+            return;
         }
-        for (Integer num : nums) {
-            path.add(num);
+        for (int i = 0; i < nums.length; i++) {
+            if (visit[i]) {
+                continue;
+            }
+            path.add(nums[i]);
+            visit[i] = true;
             traverse(nums, path);
+//            visit[i] = false;
             path.removeLast();
         }
+    }
 
+    public static void main(String[] args) {
+        No78 no78 = new No78();
+        int[] nums = {1,2,3};
+        List<List<Integer>> res = no78.subsets(nums);
+        for (List<Integer> re : res) {
+            for (Integer integer : re) {
+                System.out.print(integer + " ");
+            }
+            System.out.println();
+        }
     }
 
 
