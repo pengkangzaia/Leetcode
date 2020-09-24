@@ -3,38 +3,23 @@ package MyAnswer.math;
 public class No7 {
 
     public static int reverse(int x) {
-        String s = String.valueOf(x);
-        char[] chars = s.toCharArray();
-        boolean isNegative = false;
-        int start = 0;
-        if (chars[0] == '-') {
-            isNegative = true;
-            start++;
-        }
-        boolean isContinueZero = chars[chars.length-1] == '0';
-        StringBuilder sb = new StringBuilder();
-        int end = chars.length - 1;
-        while (end >= start) {
-            while (isContinueZero) {
-                end--;
-                if (end < 0) break;
-                if (chars[end] != '0') {
-                    isContinueZero = false;
-                }
+        int res = 0;
+        while(x != 0) {
+            int tem = res * 10 + x % 10;
+            x /= 10;
+            if (tem / 10 != res) {
+                return 0;
+            } else {
+                res = tem;
             }
-            if (end < 0) break;
-            sb.append(chars[end]);
-            end--;
         }
-        if (sb.length() == 0) {
-            return 0;
-        }
-        return isNegative ? -1 * Integer.parseInt(sb.toString()) : Integer.parseInt(sb.toString());
+        return res;
     }
 
     public static void main(String[] args) {
-        int ans = reverse(-0);
+        int ans = reverse(-132);
         System.out.println(ans);
+        System.out.println(reverse(132));
     }
 
 }

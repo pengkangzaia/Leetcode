@@ -5,11 +5,17 @@ import java.util.Stack;
 public class No9 {
 
     public static void main(String[] args) {
+        int res = -2100000000;
+        int tem = res * 10 + 5;
+        int resAfter = tem / 10;
+        System.out.println(res);
+        System.out.println(resAfter);
 
-        System.out.println(isPalindrome2(-12121));
+
+/*        System.out.println(isPalindrome2(-12121));
         System.out.println(isPalindrome2(12121));
         System.out.println(isPalindrome2(1121));
-        System.out.println(isPalindrome2(121));
+        System.out.println(isPalindrome2(121));*/
     }
 
 
