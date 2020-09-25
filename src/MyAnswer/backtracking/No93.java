@@ -15,69 +15,40 @@ public class No93 {
     public List<String> res = new LinkedList<>();
 
     public List<String> restoreIpAddresses(String s) {
-        // 选3个位置插入
-        int n = s.length();
-        int[] nums = new int[n];
-        for (int i = 0; i < nums.length; i++) {
-            nums[i] = s.charAt(i) - '0';
+        StringBuilder ip = new StringBuilder();
+        // 查找四个分段点
+        for (int a = 0; a < 4; a++) {
+            for (int b = 0; b < 4; b++) {
+                for (int c = 0; c < 4; c++) {
+                    for (int d = 0; d < 4; d++) {
+                        if (a + b + c + d == s.length()) {
+                            int num1 = Integer.parseInt(s.substring(0, a));
+                            int num2 = Integer.parseInt(s.substring(a, a + b));
+                            int num3 = Integer.parseInt(s.substring(a + b, a + b + c));
+                            int num4 = Integer.parseInt(s.substring(a + b + c, a + b + c + d));
+                            if (num1 <= 255 && num2 <= 255 && num3 <= 255 && num4 <= 255) {
+                                ip.append(num1).append('.').append(num2).append('.').append(num3).append('.').append(num4);
+                                if (ip.length() == s.length() + 3) {
+                                    res.add(new String(ip));
+                                    ip.delete(0, ip.length());
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
         }
-        LinkedList<Integer> path = new LinkedList<>();
-        traverse(nums, path, 0);
         return res;
     }
 
-    public void traverse(int[] nums, LinkedList<Integer> path, int index) {
-        if (path.size() == 3) {
-            // 判断是否符合IP地址格式
-            if(isValid(nums, path)) {
-                String s = numsToIP(nums, path);
-                res.add(s);
-            }
-            return;
+
+    public static void main(String[] args) {
+        No93 no93 = new No93();
+        List<String> res = no93.restoreIpAddresses("25525511135");
+        for (String s : res) {
+            System.out.println(s);
         }
-        // 点（.）不能在最后一个元素之后
-        for (int i = index; i < nums.length - 1; i++) {
-            path.add(i);
-            traverse(nums, path, i + 1);
-            path.removeLast();
-        }
-    }
-
-    public boolean isValid(int[] nums, LinkedList<Integer> path) {
-
-        if (path.size() != 3) {
-            return false;
-        }
-        ArrayList<Integer> list = new ArrayList<>();
-        int a = path.get(0);
-        int b = path.get(1);
-        int c = path.get(2);
-        // 1.1.1.1
-        // 第一个点的位置记为1（从0开始）
-        if (a > 0 && a > b && b > c) {
-            int num1 = sum(nums, 0, a);
-            int num2 = sum(nums, a, b);
-            int num3 = sum(nums, b, c);
-            int num4 = sum(nums, c, nums.length);
-            if (inRange(num1) && inRange(num2) && inRange(num3) && inRange(num4)) {
-                return true;
-            }
-        }
-        return false;
-
-
-    }
-
-    public int sum(int[] nums, int from, int to) {
-        int sum = 0;
-        for (int i = from; i < to; i++) {
-            sum = sum * 10 + nums[i];
-        }
-        return sum;
-    }
-
-    public boolean inRange(int a) {
-        return 0 <= a && a <= 255;
     }
 
 
