@@ -16,11 +16,11 @@ public class No93 {
 
     public List<String> restoreIpAddresses(String s) {
         StringBuilder ip = new StringBuilder();
-        // 查找四个分段点
-        for (int a = 0; a < 4; a++) {
-            for (int b = 0; b < 4; b++) {
-                for (int c = 0; c < 4; c++) {
-                    for (int d = 0; d < 4; d++) {
+        // 查找四个分段点，每个点从1开始，保证下面的substring有值
+        for (int a = 1; a < 4; a++) {
+            for (int b = 1; b < 4; b++) {
+                for (int c = 1; c < 4; c++) {
+                    for (int d = 1; d < 4; d++) {
                         if (a + b + c + d == s.length()) {
                             int num1 = Integer.parseInt(s.substring(0, a));
                             int num2 = Integer.parseInt(s.substring(a, a + b));
@@ -30,8 +30,8 @@ public class No93 {
                                 ip.append(num1).append('.').append(num2).append('.').append(num3).append('.').append(num4);
                                 if (ip.length() == s.length() + 3) {
                                     res.add(new String(ip));
-                                    ip.delete(0, ip.length());
                                 }
+                                ip.delete(0, ip.length());
                             }
                         }
 
@@ -47,7 +47,7 @@ public class No93 {
 
     public static void main(String[] args) {
         No93 no93 = new No93();
-        List<String> res = no93.restoreIpAddresses("25525511135");
+        List<String> res = no93.restoreIpAddresses("010010");
         for (String s : res) {
             System.out.println(s);
         }
