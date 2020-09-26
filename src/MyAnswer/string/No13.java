@@ -1,5 +1,6 @@
 package MyAnswer.string;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class No13 {
@@ -41,6 +42,15 @@ public class No13 {
             prev = curr;
         }
         return res;
+    }
+
+    public static void main(String[] args) {
+        String[] strs = {"follower","flow","flight"};
+        Arrays.sort(strs);
+        for (String str : strs) {
+            System.out.println(str);
+        }
+
     }
 
 }
