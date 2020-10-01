@@ -13,7 +13,7 @@ public class No27 {
 
 
     public int removeElement(int[] nums, int val) {
-        if(nums.length==0||nums==null){
+        if(nums.length == 0){
             return 0;
         }
         int temp;
