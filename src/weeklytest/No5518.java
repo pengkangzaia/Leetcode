@@ -7,8 +7,24 @@ package weeklytest;
  * @Date: 2020/10/3 23:25
  */
 public class No5518 {
+    // 看题解之后自己写的，贪心算法。每次选能选的最大值填入数组中
 
     public int[][] restoreMatrix(int[] rowSum, int[] colSum) {
+        int m = rowSum.length;
+        int n = colSum.length;
+        int[][] res = new int[m][n];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                int cur = Math.min(rowSum[i], colSum[j]);
+                res[i][j] = cur;
+                rowSum[i] -= cur;
+                colSum[j] -= cur;
+            }
+        }
+        return res;
+    }
+
+    /*public int[][] restoreMatrix(int[] rowSum, int[] colSum) {
         int m = rowSum.length;
         int n = colSum.length;
         int[][] res = new int[m][n];
@@ -24,8 +40,7 @@ public class No5518 {
             }
         }
         return res;
-
-    }
+    }*/
 
     private boolean check(int[][] res, int[] rowSum, int[] colSum) {
         int[] myColSum = new int[colSum.length];

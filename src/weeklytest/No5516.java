@@ -11,6 +11,40 @@ import java.util.*;
  * @Date: 2020/10/3 22:40
  */
 public class No5516 {
+    // 大佬解法
+    /*public List<String> alertNames(String[] keyName, String[] keyTime) {
+        Map<String, List<Integer>> map = new HashMap<>();
+        int n = keyName.length;
+        for (int i = 0; i < n; i++) {
+            String name = keyName[i];
+            int time = convert(keyTime[i]);
+            map.putIfAbsent(name, new ArrayList<>());
+            map.get(name).add(time);
+        }
+
+        List<String> ans = new ArrayList<>();
+        for (String name : map.keySet()) {
+            List<Integer> times = map.get(name);
+            Collections.sort(times);
+            //System.out.println(times.toString());
+            for (int i = 0; i < times.size()-2; i++) {
+                int pre = times.get(i);
+                int nxt = times.get(i+2);
+                if (nxt-pre <= 60) {
+                    ans.add(name);
+                    break;
+                }
+            }
+        }
+        Collections.sort(ans);
+        return ans;
+    }
+    private int convert(String time) {
+        String[] tmp = time.split(":");
+        int hour = Integer.parseInt(tmp[0]);
+        int min = Integer.parseInt(tmp[1]);
+        return hour * 60 + min;
+    }*/
 
     private SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
 
