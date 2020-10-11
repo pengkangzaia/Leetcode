@@ -2,7 +2,7 @@ package myanswer.dynamicprogramming;
 
 /**
  * @FileName: No375.java
- * @Description: No375.java类说明
+ * @Description: 猜数字大小2
  * @Author: camille
  * @Date: 2020/10/10 20:49
  */
