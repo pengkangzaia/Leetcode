@@ -2,7 +2,7 @@ package myanswer.dfsandbfs;
 
 /**
  * @FileName: No130.java
- * @Description: No130.java类说明
+ * @Description: 被环绕的区域
  * @Author: admin
  * @Date: 2020/10/15 19:15
  */

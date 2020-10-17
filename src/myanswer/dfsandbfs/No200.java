@@ -2,7 +2,7 @@ package myanswer.dfsandbfs;
 
 /**
  * @FileName: No200.java
- * @Description: No200.java类说明
+ * @Description: 岛屿数量
  * @Author: admin
  * @Date: 2020/10/15 16:55
  */
@@ -48,11 +48,13 @@ public class No200 {
     public static void main(String[] args) {
         No200 no200 = new No200();
         char[][] grid = {
-                {'1','0'},
-                {'0','1'}
+                {'1', '0'},
+                {'0', '1'}
         };
         int numIslands = no200.numIslands(grid);
         System.out.println(numIslands);
-    };
-
     }
+
+    ;
+
+}
