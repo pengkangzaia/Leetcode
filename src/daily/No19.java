@@ -27,6 +27,7 @@ public class No19 {
             fast = fast.next;
             slow = slow.next;
             slowPrev = slowPrev.next;
+
         }
         // 删除slow节点
         slowPrev.next = slow.next;
