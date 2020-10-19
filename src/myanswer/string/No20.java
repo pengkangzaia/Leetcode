@@ -1,14 +1,14 @@
-package myanswer;
+package myanswer.string;
 
 import java.util.HashMap;
 import java.util.Stack;
 
-public class No20isValid {
+public class No20 {
     private HashMap<Character, Character> mappings;
     // Hash table that takes care of the mappings.
 
     // Initialize hash map with mappings. This simply makes the code easier to read.
-    public No20isValid() {
+    public No20() {
         this.mappings = new HashMap<Character, Character>();
         this.mappings.put(')', '(');
         this.mappings.put('}', '{');
@@ -54,7 +54,7 @@ public class No20isValid {
     public static void main(String[] args) {
         //基于计数的不行，不能判断括号之间的相对位置。
         String s = "))))";
-        No20isValid n =new No20isValid();
+        No20 n =new No20();
         boolean valid = n.isValid(s);
         System.out.println(valid);
     }
