@@ -11,6 +11,8 @@ import java.util.*;
 public class No126 {
 
     // BFS返回的一定是最短路径，现在只需要找到路径即可
+    // 优化思路：实际上用的是DFS，所以每一个节点第一次出现了，就记录他的离开始节点的长度。
+    // 如果他在第k层出现，但在之前1-（k-1）层出现过，就不用再计算了。因为长度肯定会更长。
 
     private List<List<String>> res = new LinkedList<>();
 
@@ -70,7 +72,6 @@ public class No126 {
                             graph.put(word, neighbor);
                         }
                     }
-
                 }
                 curr[i] = temp;
             }

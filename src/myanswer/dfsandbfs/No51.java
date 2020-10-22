@@ -34,7 +34,7 @@ public class No51 {
         for (int j = 0; j < board.length; j++) {
             if (valid(board, i, j)) {
                 board[i][j] = 'Q';
-                traverse(board, i+1);
+                traverse(board, i + 1);
                 board[i][j] = '.';
             }
         }
