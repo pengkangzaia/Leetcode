@@ -11,20 +11,24 @@ import java.util.Stack;
 public class No42 {
 
     public int trap(int[] height) {
-        Stack<Integer> location = new Stack<>();
+        if (height == null || height.length == 0) {
+            return 0;
+        }
         int res = 0;
-        int tem = 0;
+        Stack<Integer> stack = new Stack<>();
         for (int i = 0; i < height.length; i++) {
-            if (location.isEmpty()) {
-                location.push(i);
-            } else if (height[i] >= height[location.peek()]) {
-                int index = location.pop();
-                res += (i - index - 1) * height[index] - tem;
-                tem = 0;
-                location.push(i);
-            } else {
-                tem += height[i];
+            while (!stack.isEmpty() && height[stack.peek()] < height[i]) {
+                int curIdx = stack.pop();
+                while (!stack.isEmpty() && height[stack.peek()] == height[curIdx]) {
+                    stack.pop();
+                }
+                if (!stack.isEmpty()) {
+                    // 左边界的高度
+                    Integer stackTop = stack.peek();
+                    res += (Math.min(height[stack.peek()], height[i]) - height[curIdx]) * (i - stackTop - 1);
+                }
             }
+            stack.add(i);
         }
         return res;
 
@@ -47,6 +51,36 @@ public class No42 {
         //        current++; //指针后移
         //    }
         //    return sum;
+
+
+        // public class Solution {
+        //    public int trap(int[] height) {
+        //        if (height == null) {
+        //            return 0;
+        //        }
+        //        Stack<Integer> stack = new Stack<>();
+        //        int ans = 0;
+        //        for (int i = 0; i < height.length; i++) {
+        //            // 栈顶元素小于当前元素，出栈
+        //            while(!stack.isEmpty() && height[stack.peek()] < height[i]) {
+        //                int curIdx = stack.pop();
+        //                // 如果栈顶元素一直相等，那么全都pop出去，只留第一个。
+        //                while (!stack.isEmpty() && height[stack.peek()] == height[curIdx]) {
+        //                    stack.pop();
+        //                }
+        //                if (!stack.isEmpty()) {
+        //                    int stackTop = stack.peek();
+        //                    // stackTop此时指向的是此次接住的雨水的左边界的位置。右边界是当前的柱体，即i。
+        //                    // Math.min(height[stackTop], height[i]) 是左右柱子高度的min，减去height[curIdx]就是雨水的高度。
+        //                    // i - stackTop - 1 是雨水的宽度。
+        //                    ans += (Math.min(height[stackTop], height[i]) - height[curIdx]) * (i - stackTop - 1);
+        //                }
+        //            }
+        //            stack.add(i);
+        //        }
+        //        return ans;
+        //    }
+        //}
 
     }
 
