@@ -14,9 +14,29 @@ public class No131 {
     private List<List<String>> res = new LinkedList<>();
 
     public List<List<String>> partition(String s) {
+        if (s == null || s.length() == 0) {
+            return res;
+        }
+        char[] letters = s.toCharArray();
         // 回溯
-        dfs(s, new LinkedList<String>());
+        dfs(letters, new LinkedList<String>(), 0);
         return res;
+    }
+
+    private void dfs(char[] letters, LinkedList<String> path, int idx) {
+        if (idx == letters.length) {
+            res.add(new LinkedList<>(path));
+            return;
+        }
+        StringBuilder sb = new StringBuilder();
+        for (int i = idx; i < letters.length; i++) {
+            sb.append(letters[i]);
+            if (isPalindrome(sb.toString())) {
+                path.add(sb.toString());
+                dfs(letters, path, i+1);
+                path.removeLast();
+            }
+        }
     }
 
 
@@ -36,12 +56,15 @@ public class No131 {
         return true;
     }
 
-    public void dfs(String s, LinkedList<String> path) {
-        if (s == null || s.length() == 0) {
-            return;
+    public static void main(String[] args) {
+        String s = "aabcb";
+        No131 no131 = new No131();
+        List<List<String>> results = no131.partition(s);
+        for (List<String> result : results) {
+            System.out.println(result);
         }
-        
-
     }
+
+
 
 }
