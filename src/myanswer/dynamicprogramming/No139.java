@@ -1,5 +1,6 @@
 package myanswer.dynamicprogramming;
 
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -38,8 +39,67 @@ public class No139 {
         List<String> wordDict = new LinkedList<>();
         wordDict.add("leet");
         wordDict.add("code");
-        boolean b = no139.wordBreak(s, wordDict);
+        boolean b = no139.wordBreak1(s, wordDict);
         System.out.println(b);
     }
+
+
+
+
+
+
+
+
+    // 单词拆分
+    // dp[i] 表示能够被拆分
+    public boolean wordBreak1(String s, List<String> wordDict) {
+        if (s == null || s.length() == 0) {
+            return true;
+        }
+        if (wordDict.size() == 0) {
+            return false;
+        }
+        int n = s.length();
+        boolean[] dp = new boolean[n+1];
+        dp[0] = true;
+
+        // list转set方便处理
+        HashSet<String> set = new HashSet<>();
+        for (String word : wordDict) {
+            set.add(word);
+        }
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j < i; j++) {
+                if (dp[j] && set.contains(s.substring(j, i))) {
+                    dp[i] = true;
+                    break;
+                }
+            }
+        }
+        return dp[n];
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

@@ -15,6 +15,10 @@ public class No152 {
     //因此还需要维护当前最小值imin，imin = min(imin * nums[i], nums[i])
     //当负数出现时则imax与imin进行交换再进行下一步计算
 
+
+    // imax表示以当前节点为终止节点的连续子数组的乘积最大值
+    // imin表示以当前节点为终止节点的连续子数组的乘积最小值
+
     // 多琢磨
     public int maxProduct(int[] nums) {
         int n = nums.length;
@@ -39,6 +43,28 @@ public class No152 {
         No152 no152 = new No152();
         int ans = no152.maxProduct(nums);
         System.out.println(ans);
+    }
+
+    public int maxProduct1(int[] nums) {
+        int res = Integer.MIN_VALUE;
+        int max = 1, min = -1;
+        int temp;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] < 0) {
+                temp = max;
+                max = min;
+                min = temp;
+            }
+            // 选择之前的节点 max*nums[i]
+            // 不选择之前的节点 nums[i]
+            max = Math.max(max * nums[i], nums[i]);
+            min = Math.min(min * nums[i], nums[i]);
+            // max是当前节点的最大值
+            // res是所有节点的最大值
+            res = Math.max(res, max);
+        }
+        return res;
+
     }
 
 

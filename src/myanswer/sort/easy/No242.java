@@ -42,7 +42,25 @@ public class No242 {
             return true;
         else
             return false;
+    }
 
+    // AC 2020年11月12日19点41分
+    public boolean isAnagram1(String s, String t) {
+        if(s.length() == t.length()) {
+            if (s.length() == 0) {
+                return true;
+            }
+            char[] chars1 = s.toCharArray();
+            char[] chars2 = t.toCharArray();
+            Arrays.sort(chars1);
+            Arrays.sort(chars2);
+            boolean flag = true;
+            for (int i = 0; i < chars1.length; i++) {
+                flag = flag && (chars1[i] == chars2[i]);
+            }
+            return flag;
+        }
+        return false;
     }
 }
 
