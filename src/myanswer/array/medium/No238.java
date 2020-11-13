@@ -29,11 +29,28 @@ public class No238 {
 
     public static void main(String[] args) {
         No238 no238 = new No238();
-        int[] nums = {1,2,3,4,5,6};
-        int[] ans = no238.productExceptSelf(nums);
+        int[] nums = {1, 2, 3, 4, 5, 6};
+        int[] ans = no238.productExceptSelf1(nums);
         for (int i = 0; i < ans.length; i++) {
             System.out.println(ans[i]);
         }
+    }
+
+    public int[] productExceptSelf1(int[] nums) {
+        int n = nums.length;
+        int[] res = new int[n];
+        Arrays.fill(res, 1);
+        int temp = nums[0];
+        for (int i = 1; i < n; i++) {
+            res[i] = temp;
+            temp = temp * nums[i];
+        }
+        temp = nums[n - 1];
+        for (int i = n - 2; i >= 0; i--) {
+            res[i] = temp * res[i];
+            temp = temp * nums[i];
+        }
+        return res;
     }
 
 }

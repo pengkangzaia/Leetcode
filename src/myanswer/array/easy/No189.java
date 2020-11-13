@@ -27,15 +27,16 @@ package myanswer.array.easy;
  * 链接：https://leetcode-cn.com/problems/rotate-array
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
+// 旋转环状数组
 public class No189 {
     public static void main(String[] args) {
-        int[] nums = {1,2,3};
+        int[] nums = {1,2,3,4};
         int k = 2;
         /*rotateOnce(nums);
         for (int num : nums) {
             System.out.print(num+" ");
         }*/
-        rotate(nums, k);
+        rotate2(nums, k);
         for (int num : nums) {
             System.out.print(num + " ");
         }
@@ -79,4 +80,51 @@ public class No189 {
             nums[i] = temp;
         }
     }*/
+
+
+
+
+
+
+
+
+    public static void rotate1(int[] nums, int k) {
+        while (k > 0) {
+            shift(nums);
+            k--;
+        }
+    }
+
+    private static void shift(int[] nums) {
+
+        int i = 0;
+        int j = nums.length - 1;
+        while (i <= j) {
+            int temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
+            i++;
+        }
+
+    }
+
+    // 利用反转的解法
+    public static void rotate2(int[] nums, int k) {
+        k = k % nums.length;
+        reverse(nums, 0, nums.length - 1);
+        reverse(nums, 0, k-1);
+        reverse(nums, k, nums.length - 1);
+    }
+
+    private static void reverse(int[] nums, int i, int j) {
+        while (i < j) {
+            int temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
+            i++;
+            j--;
+        }
+    }
+
+
 }

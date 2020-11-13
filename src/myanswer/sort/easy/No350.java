@@ -1,6 +1,7 @@
 package myanswer.sort.easy;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class No350 {
@@ -13,8 +14,8 @@ public class No350 {
         int[] nums2 = {2,2};
         //[5,4,57,79,7,89,88,45,34,92,38,85,6,0,77,44,61]
 
-
-        int[] ans = intersect(nums1,nums2);
+        No350 no350 = new No350();
+        int[] ans = no350.intersect1(nums1,nums2);
         for (int i = 0; i < ans.length; i++) {
             System.out.print(ans[i]+" ");
         }
@@ -75,4 +76,34 @@ public class No350 {
         return ans;
 
     }
+
+
+    public int[] intersect1(int[] nums1, int[] nums2) {
+        ArrayList<Integer> res = new ArrayList<>();
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
+        int i = 0;
+        int j = 0;
+        while (i < nums1.length && j < nums2.length) {
+            if (nums1[i] == nums2[j]) {
+                res.add(nums1[i]);
+                i++;
+                j++;
+            } else if (nums1[i] < nums2[j]) {
+                while (i < nums1.length && nums1[i] < nums2[j]) {
+                    i++;
+                }
+            } else {
+                while (j < nums2.length && nums2[j] < nums1[i]) {
+                    j++;
+                }
+            }
+        }
+        int[] ans = new int[res.size()];
+        for (int idx = 0; idx < res.size(); idx++) {
+            ans[idx] = res.get(idx);
+        }
+        return ans;
+    }
+
 }
