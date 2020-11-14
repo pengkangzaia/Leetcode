@@ -3,6 +3,7 @@ package myanswer.array.medium;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.PriorityQueue;
+import java.util.Set;
 
 public class No347 {
 
@@ -45,7 +46,7 @@ public class No347 {
     // // 2020/7/13 21:24 第二次AC，尝试最小堆，当队列大小达到k时弹出最小值。
     public int[] topKFrequentFast(int[] nums, int k) {
         // 一个 hashmap，一个 最小堆优先队列
-        int[] res = new int[k];
+        /*int[] res = new int[k];
         HashMap<Integer, Integer> map = new HashMap<>();
         PriorityQueue<Integer> queue = new PriorityQueue<>(new Comparator<Integer>() {
             @Override
@@ -73,6 +74,34 @@ public class No347 {
             res[count++] = queue.poll();
         }
 
+        return res;*/
+
+        // 哈希表，key为数组元素，value为元素出现次数
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(nums[i])) {
+                map.put(nums[i], map.get(nums[i]) + 1);
+            } else {
+                map.put(nums[i], 0);
+            }
+        }
+        PriorityQueue<Integer> heap = new PriorityQueue<>(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return map.get(o1) - map.get(o2);
+            }
+        });
+        Set<Integer> keys = map.keySet();
+        for (int key : keys) {
+            heap.offer(key);
+            if (heap.size() > k) {
+                heap.poll();
+            }
+        }
+        int[] res = new int[k];
+        for (int i = 0; i < k; i++) {
+            res[i] = heap.poll();
+        }
         return res;
 
     }

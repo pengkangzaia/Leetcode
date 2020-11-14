@@ -30,8 +30,22 @@ public class No215 {
 
     public static void main(String[] args) {
         No215 no215 = new No215();
-        int[] nums = {3,2,3,1,2,4,5,5,6};
-        int ans = no215.findKthLargest(nums, 4);
+        int[] nums = {1,2,3,4,5,6,7};
+        int ans = no215.findKthLargest1(nums, 5);
+        System.out.println(ans);
     }
+
+
+    public int findKthLargest1(int[] nums, int k) {
+        PriorityQueue<Integer> heap = new PriorityQueue<>();
+        for (int i = 0; i < nums.length; i++) {
+            heap.add(nums[i]);
+            if (heap.size() > k) {
+                heap.poll();
+            }
+        }
+        return heap.peek();
+    }
+
 
 }

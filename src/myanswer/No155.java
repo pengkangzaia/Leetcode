@@ -1,42 +1,42 @@
 package myanswer;
 
 import java.util.ArrayList;
+import java.util.Stack;
 
 //设计一个支持 push，pop，top 操作，并能在常数时间内检索到最小元素的栈。
-//
-//        push(x) -- 将元素 x 推入栈中。
-//        pop() -- 删除栈顶的元素。
-//        top() -- 获取栈顶元素。
-//        getMin() -- 检索栈中的最小元素。
-//
-//        来源：力扣（LeetCode）
-//        链接：https://leetcode-cn.com/problems/min-stack
-//        著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// 最小栈
 public class No155 {
-    private ArrayList<Integer> a;
+//    private ArrayList<Integer> a;
+    private Stack<Integer> stack;
+    private Stack<Integer> min;
     /** initialize your data structure here. */
     public No155() {
-        this.a = new ArrayList<>();
+        stack = new Stack<>();
+        min = new Stack<>();
     }
 
     public void push(int x) {
-        this.a.add(x);
+        stack.push(x);
+        if (min.isEmpty()) {
+            min.push(x);
+        } else if (min.peek() >= x) {
+            min.push(x);
+        }
     }
 
     public void pop() {
-        this.a.remove(a.size()-1);
+        Integer top = stack.pop();
+        if (top.equals(min.peek())) {
+            min.pop();
+        }
     }
 
     public int top() {
-        return this.a.get(a.size()-1);
+        return stack.peek();
     }
 
     public int getMin() {
-        int min = Integer.MAX_VALUE;
-        for (Integer integer : this.a) {
-            min = integer > min ? min : integer;
-        }
-        return min;
+        return min.peek();
     }
 
     public static void main(String[] args) {
