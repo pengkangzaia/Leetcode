@@ -86,5 +86,26 @@ public class No230 {
         traverse(root.right, k);
     }
 
+    // 二刷 2020/11/15 16点11分
+    public int kthSmallest4(TreeNode root, int k) {
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode curr = root;
+        stack.push(curr);
+        while (!stack.isEmpty()) {
+            while (curr != null) {
+                stack.push(curr);
+                curr = curr.left;
+            }
+            curr = stack.pop();
+            k--;
+            if (k == 0) {
+                return curr.val;
+            }
+            // 转化为子树的头节点
+            curr = curr.right;
+        }
+        return -1;
+    }
+
 
 }

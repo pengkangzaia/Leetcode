@@ -39,5 +39,20 @@ public class No297 {
         return node;
     }
 
+    public static void main(String[] args) {
+        TreeNode n1 = new TreeNode(1);
+        TreeNode n2 = new TreeNode(2);
+        TreeNode n3 = new TreeNode(3);
+        TreeNode n4 = new TreeNode(4);
+        n1.left = n2;
+        n1.right = n3;
+        n2.left = n4;
+        No297 no297 = new No297();
+        String serialize = no297.serialize(n1);
+        System.out.println(serialize);
+        TreeNode deserialize = no297.deserialize(serialize);
+        System.out.println(deserialize);
+    }
+
 
 }
