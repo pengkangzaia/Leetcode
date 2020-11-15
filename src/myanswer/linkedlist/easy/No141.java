@@ -1,5 +1,6 @@
 package myanswer.linkedlist.easy;
 
+import java.util.HashMap;
 import java.util.HashSet;
 
 /**
@@ -25,8 +26,41 @@ public class No141 {
         node4.next = node5;
         node5.next = node2;
 
-        boolean flag = hasCycleMethod2(node1);
+        boolean flag = hasCycleMethod3(node1);
         System.out.println(flag);
+        System.out.println(hasCycleMethod2(node1));
+    }
+
+    public static boolean hasCycleMethod3(ListNode head) {
+        HashMap<ListNode, Integer> map = new HashMap<>();
+        ListNode curr = head;
+        int idx = 0;
+        while (curr != null) {
+            if (map.containsKey(curr)) {
+                return true;
+            }
+            map.put(curr, idx);
+            idx++;
+            curr = curr.next;
+        }
+        return false;
+
+        // 快慢指针
+        // 快慢指针
+        /*if (head == null || head.next == null) {
+            return false;
+        }
+        ListNode fast = head;
+        ListNode slow = head;
+        while(fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if (fast == slow) {
+                return true;
+            }
+        }
+        return false;*/
+
     }
 
     private static boolean hasCycleMethod2(ListNode node1) {

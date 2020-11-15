@@ -16,13 +16,15 @@ import java.util.ArrayList;
  */
 public class No234 {
     public static void main(String[] args) {
-        ListNode n1 = new ListNode(-129);
-        ListNode n2 = new ListNode(-129);
+        ListNode n1 = new ListNode(1);
+        ListNode n2 = new ListNode(0);
+        ListNode n3 = new ListNode(1);
 
         n1.next = n2;
+        n2.next = n3;
 
 
-        boolean flag = isPalindrome(n1);
+        boolean flag = isPalindrome1(n1);
         System.out.println(flag);
     }
 
@@ -48,6 +50,29 @@ public class No234 {
         }
         return true;
     }
+
+
+    public static boolean isPalindrome1(ListNode head) {
+        ListNode dummy = new ListNode(-1);
+        ListNode curr = head;
+        while (curr != null) {
+            ListNode node = new ListNode(curr.val);
+            node.next = dummy.next;
+            dummy.next = node;
+            curr = curr.next;
+        }
+        curr = head;
+        ListNode reverse = dummy.next;
+        while (curr != null) {
+            if (curr.val != reverse.val) {
+                return false;
+            }
+            curr = curr.next;
+            reverse = reverse.next;
+        }
+        return true;
+    }
+
 }
 
 
@@ -84,4 +109,7 @@ public class No234 {
                 return false;
             }
         }*/
+
+
+
 

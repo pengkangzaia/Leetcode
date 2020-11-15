@@ -17,7 +17,7 @@ public class No206 {
         node4.next = node5;
         node5.next = null;
 
-        ListNode ans = reverseList(node1);
+        ListNode ans = reverseList1(node1);
         while (ans!=null){
             System.out.println(ans.val);
             ans = ans.next;
@@ -39,6 +39,19 @@ public class No206 {
         }
 
         return reverseNodeHead.next;
+    }
+
+    // 递归法
+    public static ListNode reverseList1(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        // 设返回的节点为头节点，这样就可以一直保留头节点的引用
+        ListNode p = reverseList1(head.next);
+        head.next.next = head;
+        head.next = null;
+        // 不能返回head，head反转之后是链表的最后一个节点
+        return p;
     }
 
 
