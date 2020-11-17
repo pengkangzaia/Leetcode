@@ -25,4 +25,40 @@ public class No287 {
         }
         return nums[i];
     }
+
+
+    public int findDuplicate1(int[] nums) {
+        // 二分查找
+        int left = 0;
+        int right = nums.length - 1;
+        int ans = 0;
+        // 每一个点都要检查
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            int cnt = 0;
+            for (int i = 0; i < nums.length; i++) {
+                if (mid >= nums[i]) {
+                    cnt++;
+                }
+            }
+            if (cnt > mid) {
+                // mid点可能大于等于要求的值
+                right = mid - 1;
+                // mid点作为备选节点，继续迭代
+                ans = mid;
+            } else {
+                // mid不可能是要求的值
+                left = mid + 1;
+            }
+        }
+        return ans;
+    }
+
+    public static void main(String[] args) {
+        No287 no287 = new No287();
+        int[] nums = {1,3,3,3,4,4};
+        int ans = no287.findDuplicate1(nums);
+        System.out.println(ans);
+    }
+
 }
