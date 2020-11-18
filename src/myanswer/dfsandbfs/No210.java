@@ -19,20 +19,18 @@ public class No210 {
         for (int i = 0; i < numCourses; i++) {
             next.add(new ArrayList<>());
         }
-
         // 初始化入度表和邻接矩阵
         for (int i = 0; i < prerequisites.length; i++) {
             inDegree[prerequisites[i][0]]++;
             next.get(prerequisites[i][1]).add(prerequisites[i][0]);
         }
-
         // 将入度为0的节点加入到队列中
         for (int i = 0; i < numCourses; i++) {
             if (inDegree[i] == 0) {
                 queue.offer(i);
             }
         }
-
+        // 搜索节点为0的点
         while (!queue.isEmpty()) {
             Integer course = queue.poll();
             numCourses--;
@@ -44,7 +42,7 @@ public class No210 {
                 }
             }
         }
-
+        // 返回结果
         if (numCourses == 0) {
             int[] ans = new int[res.size()];
             for (int i = 0; i < ans.length; i++) {
