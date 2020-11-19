@@ -2,7 +2,7 @@ package myanswer.math;
 
 /**
  * @FileName: No326.java
- * @Description: No326.java类说明
+ * @Description: 3的幂
  * @Author: camille
  * @Date: 2020/10/10 22:52
  */
