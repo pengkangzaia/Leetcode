@@ -12,6 +12,7 @@ public class No112 {
         sum -= root.val;
         return hasPathSum(root.left, sum) || hasPathSum(root.right, sum);*/
 
+
         if (root == null) {
             return false;
         }
@@ -19,7 +20,6 @@ public class No112 {
         if (root.left == null && root.right == null) {
             return sum == root.val;
         }
-
         sum -= root.val;
         return hasPathSum(root.left, sum) || hasPathSum(root.right, sum);
 
