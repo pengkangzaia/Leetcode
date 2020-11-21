@@ -22,7 +22,7 @@ import java.util.Comparator;
  */
 public class No179 {
     public static void main(String[] args) {
-        int[] nums = {0,0,0};
+        int[] nums = {1,2,0,0};
         String ans = largestNumber(nums);
         System.out.println(ans);
     }
