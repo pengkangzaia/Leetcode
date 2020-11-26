@@ -84,7 +84,7 @@ public class No15 {
     public static void main(String[] args) {
         int[] nums = {-2, 0, 0, 2, 2};
         No15 no15 = new No15();
-        List<List<Integer>> ans = no15.threeSumAns(nums);
+        List<List<Integer>> ans = no15.threeSum3(nums);
         /*for (List<Integer> list : ans) {
             for (Integer integer : list) {
                 System.out.print(integer + " ");
@@ -93,5 +93,54 @@ public class No15 {
         }*/
         System.out.println(ans);
     }
+
+
+    public List<List<Integer>> threeSum3(int[] nums) {
+        // 19:55开始
+        List<List<Integer>> res = new ArrayList<>();
+        if (nums.length < 3) {
+            return res;
+        }
+        Arrays.sort(nums);
+        int n = nums.length;
+        for (int i = 0; i <= n - 3; i++) {
+            if (nums[i] > 0) {
+                break;
+            }
+            if (i > 0 && nums[i] == nums[i - 1]) {
+                continue;
+            }
+            int l = i + 1;
+            int r = n - 1;
+            while (l < r) {
+                if (nums[i] + nums[l] + nums[r] == 0) {
+                    List<Integer> list = new ArrayList<>();
+                    list.add(nums[i]);
+                    list.add(nums[l]);
+                    list.add(nums[r]);
+                    res.add(list);
+                    // 需要跳出循环
+                    // 需要去重
+                    while (l < r && nums[l] == nums[l+1]) {
+                        l++;
+                    }
+                    while (l < r && nums[r] == nums[r - 1]) {
+                        r--;
+                    }
+                    // 需要不同的数字
+                    l++;
+                    r--;
+                } else if (nums[i] + nums[l] + nums[r] < 0) {
+                    l++;
+                } else {
+                    r--;
+                }
+            }
+        }
+        return res;
+    }
+
+
+
 
 }
