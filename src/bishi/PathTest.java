@@ -18,13 +18,12 @@ public class PathTest {
      */
     public static void main(String[] args) {
         PathTest pathTest = new PathTest();
-        String path = pathTest.findPath("/a/./b/../../c/");
+        String path = pathTest.findPath1("/a/./b/../../../../c/");
         System.out.println(path);
     }
 
     public String findPath(String s) {
         String[] strings = s.split("/");
-        // String[] paths = new String[strings.length];
         LinkedList<String> paths = new LinkedList<>();
         String res = "/";
         for (String string : strings) {
@@ -45,6 +44,31 @@ public class PathTest {
             res += path + "/";
         }
         return res.substring(0, res.length()-1);
+    }
+
+    public String findPath1(String s) {
+        String[] strings = s.split("/");
+        LinkedList<String> paths = new LinkedList<>();
+        StringBuilder res = new StringBuilder("/");
+        for (String string : strings) {
+            if (string.equals(".") || string.equals("")) {
+                continue;
+            } else if (string.equals("..")) {
+                if (paths.size() > 0) {
+                    paths.removeLast();
+                }
+            } else {
+                paths.add(string);
+            }
+        }
+        if (paths.size() == 0) {
+            return res.toString();
+        }
+        for (String path : paths) {
+            res.append(path);
+            res.append("/");
+        }
+        return res.deleteCharAt(res.length() - 1).toString();
     }
 
 

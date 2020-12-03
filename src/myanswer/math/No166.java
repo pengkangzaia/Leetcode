@@ -47,7 +47,7 @@ public class No166 {
     public static void main(String[] args) {
         No166 no166 = new No166();
         // 前面的是分子，后面的分母
-        String ans = no166.fractionToDecimal(53, 3);
+        String ans = no166.fractionToDecimal(2, 3135);
         System.out.println(ans);
     }
 

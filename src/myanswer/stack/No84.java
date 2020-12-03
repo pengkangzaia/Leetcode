@@ -10,8 +10,11 @@ import java.lang.reflect.Proxy;
  */
 public class No84 {
 
-    // 暴力解法
+    // 暴力解法, 和第828题差不多
     public static int largestRectangleArea(int[] heights) {
+        if (heights.length == 0) {
+            return 0;
+        }
         int res = heights[0];
         for (int i = 0; i < heights.length; i++) {
             int left = i;
@@ -30,7 +33,6 @@ public class No84 {
 
     public static void main(String[] args) {
         int[] h = {2, 1, 5, 6, 2, 3};
-        int[] s = {1, 1};
         int ans = largestRectangleArea(h);
         System.out.println(ans);
     }
