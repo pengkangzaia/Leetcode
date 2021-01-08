@@ -1,13 +1,16 @@
 package datastructure.sort;
 
+import java.util.Arrays;
+
 public class QuickSort {
 
     public static void main(String[] args) {
-        int[] array = {1, 1, 1, 8};
-        quickSort(array, 0, array.length - 1);
-        for (int a : array) {
-            System.out.print(a + " ");
-        }
+        int[] array = {1, 4, 3, 8};
+        /*quickSort(array, 0, array.length - 1);
+        System.out.println(Arrays.toString(array));*/
+        QuickSort quickSort = new QuickSort();
+        quickSort.quickSort(array);
+        System.out.println(Arrays.toString(array));
     }
 
     public static void quickSort(int[] array, int left, int right) {
@@ -42,6 +45,38 @@ public class QuickSort {
         quickSort(array, left, i - 1);
         quickSort(array, i + 1, right);
     }
+
+
+    public void quickSort(int[] nums) {
+        int n = nums.length;
+        sort(nums, 0, n - 1);
+    }
+
+    public void sort(int[] nums, int low, int high) {
+        if (low >= high) { return;}
+        int key = nums[low];
+        int left = low, right = high;
+        while (left < right) {
+            while (left < right && nums[right] >= key) {right--;}
+            while (left < right && nums[left] <= key) {left++;}
+            if (left < right) { swap(nums, left, right); }
+        }
+        swap(nums, low, left);
+        sort(nums, low, left - 1);
+        sort(nums, left + 1, high);
+    }
+
+    public void swap(int[] nums, int i, int j) {
+        // i和j不能相等
+        if (i != j) {
+            nums[i] = nums[i] ^ nums[j];
+            nums[j] = nums[i] ^ nums[j];
+            nums[i] = nums[i] ^ nums[j];
+        }
+    }
+
+
+
 
 
 }

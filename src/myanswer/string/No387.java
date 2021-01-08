@@ -1,6 +1,7 @@
 package myanswer.string;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 // 字符串中第一个唯一字符
@@ -33,7 +34,7 @@ public class No387 {
 
     public static void main(String[] args) {
         No387 no387 = new No387();
-        int ans = no387.firstUniqChar1("sqqwfws");
+        int ans = no387.firstUniqCharDaily("leetcode");
         System.out.println(ans);
     }
 
@@ -67,6 +68,31 @@ public class No387 {
             }
         }
         return res == Integer.MAX_VALUE ? -1 : res;*/
+    }
+
+
+    public int firstUniqCharDaily(String s) {
+        int[] letters = new int[26];
+        Arrays.fill(letters, -2);
+        // -2表示没遍历过，-1表示遍历过多次
+        int n = s.length();
+        for (int i = 0; i < n; i++) {
+            char c = s.charAt(i);
+            int index = c - 'a';
+            if (letters[index] == -1) {
+            } else if (letters[index] == -2) {
+                letters[index] = i;
+            } else {
+                letters[index] = -1;
+            }
+        }
+        int res = n; // 索引最大为 n-1。
+        for (int i = 0; i < letters.length; i++) {
+            if (letters[i] != -1 && letters[i] != -2) {
+                res = Math.min(letters[i], res);
+            }
+        }
+        return res == n ? -1 : res;
     }
 
 
