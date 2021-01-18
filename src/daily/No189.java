@@ -30,6 +30,9 @@ public class No189 {
         }
     }
 
+    // 超级管理员怎么配置呢？
+    //
+
 
     public static void main(String[] args) {
         No189 no189 = new No189();

@@ -5,11 +5,12 @@ import java.util.Arrays;
 public class QuickSort {
 
     public static void main(String[] args) {
-        int[] array = {1, 4, 3, 8};
+        int[] array = {1, 4, 3, 8,397,3295,29,4938,2192};
         /*quickSort(array, 0, array.length - 1);
         System.out.println(Arrays.toString(array));*/
         QuickSort quickSort = new QuickSort();
-        quickSort.quickSort(array);
+        //quickSort.quickSort(array);
+        quickSort.quickSort0112(array);
         System.out.println(Arrays.toString(array));
     }
 
@@ -76,7 +77,37 @@ public class QuickSort {
     }
 
 
+    public void quickSort0112(int[] nums) {
+        sort0112_2(nums, 0, nums.length - 1);
+    }
 
+    private void sort0112(int[] nums, int low, int high) {
+        if (low >= high) { return;}
+        int key = nums[low];
+        int left = low, right = high;
+        while (left < right) {
+            while (left < right && nums[right] >= key) { right--; }
+            while (left < right && nums[left] <= key) { left++; }
+            if (left < right) { swap(nums, left, right); }
+        }
+        swap(nums, low, left);
+        sort0112(nums, low, left - 1);
+        sort0112(nums, left + 1, high);
+    }
+
+    private void sort0112_2(int[] nums, int low, int high) {
+        if (low >= high) { return; }
+        int key = nums[low];
+        int left = low, right = high;
+        while (left < right) {
+            while (left < right && nums[right] >= key) { right--; }
+            while (left < right && nums[left] <= key) { left++; }
+            if (left < right) { swap(nums, left, right); }
+        }
+        swap(nums, low, left);
+        sort0112_2(nums, low, left - 1);
+        sort0112_2(nums, left + 1, high);
+    }
 
 
 }
