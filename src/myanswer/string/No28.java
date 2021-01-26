@@ -10,7 +10,8 @@ public class No28 {
         } else {
             int i = 0;
             int len = haystack.length();
-            // 如果haystack剩下的长度不够的话，直接不用判断
+            // 如果haystack剩下的长度不够的话，直接不用判断。
+            // 剩下的字符串长度为 len - i
             while (i < len && (len - i) >= needle.length()) {
                 int j = 0;
                 int cur = i;
@@ -26,6 +27,13 @@ public class No28 {
             }
             return -1;
         }
+    }
+
+
+    public static void main(String[] args) {
+        No28 no28 = new No28();
+        int ans = no28.strStr("abc", "abc");
+        System.out.println(ans);
     }
 
 }

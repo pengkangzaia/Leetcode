@@ -12,9 +12,11 @@ public class No29 {
 
         // 特殊情况判断
         if (dividend == 0) {
+            // 被除数等于0
             return 0;
         }
         if (divisor == 1) {
+            // 除数等于1
             return dividend;
         }
         if (divisor == -1) {

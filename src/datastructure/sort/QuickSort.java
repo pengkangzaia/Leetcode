@@ -110,4 +110,53 @@ public class QuickSort {
     }
 
 
+
+
+    private void sort_20210121(int[] nums, int low, int high) {
+        if (low >= high) { return;}
+        int left = low, right = high;
+        int key = nums[low];
+        while (left < right) {
+            while (left < right && nums[right] >= key) { right--; }
+            while (left < right && nums[left] <= key) { left++; }
+            if (left < right) { swap(nums, left, right);}
+        }
+        swap(nums, low, left);
+        sort_20210121(nums, low, left - 1);
+        sort_20210121(nums, left + 1, high);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
