@@ -14,7 +14,7 @@ public class No34 {
         // (left + right) / 2 的结果相同，
         // 但是有效防止了 left 和 right 太大直接相加导致溢出。
         int m = (l + r) / 2;
-        while (l < r) {
+        while (l <= r) {
             if (nums[m] > target) {
                 r = m - 1;
             } else if (nums[m] < target) {

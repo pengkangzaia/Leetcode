@@ -98,7 +98,7 @@ public class No33 {
                     l = m + 1;
                 }
             } else {
-                if (target > nums[m] && target <= nums[nums.length-1]) {
+                if (target > nums[m] && target <= nums[nums.length - 1]) {
                     l = m + 1;
                 } else {
                     r = m - 1;
@@ -110,7 +110,7 @@ public class No33 {
 
     public static void main(String[] args) {
         No33 no33 = new No33();
-        int[] nums = {1,2};
+        int[] nums = {1, 2};
         int ans = no33.search1(nums, 2);
         System.out.println(ans);
     }

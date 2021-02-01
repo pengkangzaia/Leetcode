@@ -52,7 +52,7 @@ public class No40 {
     public static void main(String[] args) {
         No40 no40 = new No40();
         int[] candidates = {10, 1, 2, 7, 6, 1, 5};
-        List<List<Integer>> res = no40.combinationSum2(candidates, 8);
+        List<List<Integer>> res = no40.combinationSum21(candidates, 8);
         for (List<Integer> re : res) {
             for (Integer integer : re) {
                 System.out.print(integer + " ");
@@ -61,4 +61,34 @@ public class No40 {
         }
     }
 
+
+    public List<List<Integer>> combinationSum21(int[] candidates, int target) {
+        // 怎么去除重复元素呢？
+        Arrays.sort(candidates);
+        List<List<Integer>> res = new LinkedList<>();
+        List<Integer> path = new LinkedList<>();
+        dfs(candidates, res, path, target, 0);
+        return res;
+    }
+
+    private void dfs(int[] candidates, List<List<Integer>> res, List<Integer> path, int target, int index) {
+        if (index == candidates.length) {
+            return;
+        }
+        if (target == 0) {
+            res.add(new LinkedList<>(path));
+            return;
+        }
+        for (int i = index; i < candidates.length; i++) {
+            if (target - candidates[i] >= 0) {
+                // 如果出现重复的元素，则只取第一次出现的数。
+                if (i > index && candidates[i] == candidates[i-1]) {
+                    continue;
+                }
+                path.add(candidates[i]);
+                dfs(candidates, res, path, target - candidates[i], i + 1); // 这里是从i开始的，而不是从index开始的。要的是当前遍历的数字之后的数字
+                path.remove(path.size() - 1);
+            }
+        }
+    }
 }
