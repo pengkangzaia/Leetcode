@@ -17,7 +17,7 @@ public class No43 {
         char[] chars2 = num2.toCharArray();
         int m = chars1.length;
         int n = chars2.length;
-        // 总共m-1+n-1+1位
+        // 总共m + n位
         int[] res = new int[m + n];
         // 从后往前计算
         for (int i = m - 1; i >= 0; i--) {
@@ -53,11 +53,39 @@ public class No43 {
             n--;
         }
         System.out.println(res.toString());*/
-        String num1 = "809432795739587349";
-        String num2 = "3957392875982";
+        String num1 = "234";
+        String num2 = "345";
         No43 no43 = new No43();
-        String ans = no43.multiply(num1, num2);
+        String ans = no43.multiply1(num1, num2);
         System.out.println(ans);
+    }
+
+    public String multiply1(String num1, String num2) {
+        char[] chars1 = num1.toCharArray();
+        char[] chars2 = num2.toCharArray();
+        int m = chars1.length, n = chars2.length;
+        int[] res = new int[m + n];
+        // 从位数高的地方向前计算
+        for (int i = m - 1; i >= 0; i--) {
+            for (int j = n - 1; j >= 0; j--) {
+                int digit1 = chars1[i] - '0', digit2 = chars2[j] - '0';
+                int sum = digit1 * digit2 + res[i + j + 1]; // 目前的总和等于两数相乘加上上一次的进位
+                res[i + j + 1] = sum % 10; // 前面sum以及加过res[i+j+1]了，所以这里不需要累加
+                res[i + j] += sum / 10; // 进位，****进行需要累加**** 这里很重要
+                // System.out.printf("数组num1的当前位为%d, 数组num2的当前位为%d \n", i, j);
+                System.out.println("进位为" + res[i + j]);
+            }
+        }
+        // 前面获取到了乘法结果，现在需要把结果的前缀零去除
+        StringBuilder sb = new StringBuilder();
+        int idx = 0;
+        while (idx < res.length && res[idx] == 0) {
+            idx++;
+        }
+        for (int i = idx; i < res.length; i++) {
+            sb.append(res[i]);
+        }
+        return sb.length() == 0 ? "0" : sb.toString();
     }
 
 }
