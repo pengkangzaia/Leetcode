@@ -5,7 +5,7 @@ package myanswer.array.hard;
  */
 public class No41 {
     public static void main(String[] args) {
-        int[] nums = {1, 2,0};
+        int[] nums = {1, 2, 0};
         int ans = firstMissingPositive(nums);
         System.out.println(ans);
     }
@@ -45,7 +45,7 @@ public class No41 {
 
         //将负数，零，和大于 n 的数替换为 1 。
         for (int i = 0; i < nums.length; i++) {
-            if(nums[i]<=0||nums[i]>nums.length){
+            if (nums[i] <= 0 || nums[i] > nums.length) {
                 nums[i] = 1;
             }
         }
@@ -56,7 +56,7 @@ public class No41 {
             int a = Math.abs(nums[i]);
             if (a == nums.length) {
                 nums[0] = -1 * Math.abs(nums[0]);
-            }else {
+            } else {
                 nums[a] = -1 * Math.abs(nums[a]);
             }
 
@@ -77,6 +77,25 @@ public class No41 {
         return nums.length + 1;
 
 
+    }
+
+    // 2刷，置换解法，通过元素值为1到n的元素位置来放置元素在对应的位置上
+    public int firstMissingPositive1(int[] nums) {
+        int n = nums.length;
+        for (int i = 0; i < n; i++) {
+            // 如果 nums[i] 在 1 到 n 范围之内
+            while (nums[i] >= 1 && nums[i] <= n && nums[nums[i] - 1] != nums[i]) {
+                int temp = nums[nums[i] - 1];
+                nums[nums[i] - 1] = nums[i];
+                nums[i] = temp;
+            }
+        }
+        for (int i = 0; i < n; i++) {
+            if (nums[i] != i + 1) {
+                return i + 1;
+            }
+        }
+        return n + 1;
     }
 
 
