@@ -91,4 +91,48 @@ public class No42 {
         System.out.println(ans);
     }
 
+    // 接雨水，暴力解法。对每个元素，分别从当前元素向左，和从当前元素向由查找最大的元素然后差值
+    public int trap1(int[] height) {
+        int n = height.length;
+        int ans = 0;
+        // 最左边和最右边元素显然不可能是中心元素
+        for (int i = 1; i < n - 1; i++) {
+            // 每一个元素都有对应的左边最大值和右边最大值
+            int max_left = 0, max_right = 0;
+            for (int j = i; j >= 0; j--) {
+                // 包含当前元素
+                max_left = Math.max(max_left, height[j]);
+            }
+            for (int j = i; j < n; j++) {
+                max_right = Math.max(max_right, height[j]);
+            }
+            ans += Math.min(max_left, max_right) - height[i];
+        }
+        return ans;
+    }
+
+    // 方法2，空间换时间
+    public int trap2(int[] height) {
+        if (height == null || height.length == 0) {
+            return 0;
+        }
+        int ans = 0;
+        int n = height.length;
+        int[] max_left = new int[n];
+        int[] max_right = new int[n];
+        max_left[0] = height[0];
+        for (int i = 1; i < n; i++) {
+            max_left[i] = Math.max(max_left[i - 1], height[i]);
+        }
+        max_right[n - 1] = height[n - 1];
+        for (int i = n - 2; i >= 0; i--) {
+            max_right[i] = Math.max(max_right[i + 1], height[i]);
+        }
+        for (int i = 1; i <= n - 2; i++) {
+            // 最小值一定要大于等于当前元素
+            ans = Math.min(max_left[i - 1], max_right[i + 1]) - height[i];
+        }
+        return ans;
+    }
+
 }
