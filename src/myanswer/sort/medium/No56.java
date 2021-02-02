@@ -1,7 +1,6 @@
 package myanswer.sort.medium;
 
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 
 public class No56 {
     public static void main(String[] args) {
@@ -70,6 +69,24 @@ public class No56 {
             }
         }
         return Arrays.copyOf(res, idx + 1);
+    }
+
+
+    public int[][] merge2(int[][] intervals) {
+        List<int[]> res = new LinkedList<>();
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        for (int i = 0; i < intervals.length; i++) {
+            if (res.size() == 0 || res.get(res.size() - 1)[1] < intervals[i][0]) {
+                res.add(new int[]{intervals[i][0], intervals[i][1]});
+            } else {
+                int[] temp = res.get(res.size() - 1);
+                temp[1] = Math.max(temp[1], intervals[i][1]);
+                res.remove(res.size() - 1);
+                res.add(temp);
+            }
+        }
+        // 底层原理是将res中的元素拷贝到这个新new出来的数组里面
+        return res.toArray(new int[res.size()][]);
     }
 
 }
