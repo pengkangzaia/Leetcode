@@ -46,14 +46,75 @@ public class No54 {
         No54 no54 = new No54();
         int[][] matrix = {
                 {1,2,3,4},
-                {4,5,6,5},
-                {7,8,9,6},
+//                {4,5,6,5},
+//                {7,8,9,6},
                 {1,2,3,4}
         };
-        List<Integer> ans = no54.spiralOrder(matrix);
+        List<Integer> ans = no54.spiralOrder2(matrix);
         for (Integer an : ans) {
             System.out.print(an + " ");
         }
+    }
+
+    public List<Integer> spiralOrder1(int[][] matrix) {
+        // 设置边界，遍历的同时更新边界
+        List<Integer> res = new LinkedList<Integer>();
+        int u = 0, d = matrix.length - 1, l = 0, r = matrix[0].length - 1;
+        while (true) {
+            for (int i = l; i <= r; ++i) {
+                res.add(matrix[u][i]);
+            }
+            if (++u > d) { break; }
+            for (int i = u; i <= d; ++i) {
+                res.add(matrix[i][r]);
+            }
+            if (--r < l) { break; }
+            for (int i = r; i >= l; --i) {
+                res.add(matrix[d][i]);
+            }
+            // 这里是小于
+            if (--d < u) { break; }
+            for (int i = d; i >= u; --i) {
+                res.add(matrix[i][l]);
+            }
+            if (++l > r) { break; }
+        }
+        return res;
+    }
+
+    public List<Integer> spiralOrder2(int[][] matrix) {
+        List<Integer> res = new LinkedList<>();
+        if (matrix.length == 0) {
+            return res;
+        }
+        int up = 0, down = matrix.length - 1, left = 0, right = matrix[0].length - 1;
+        while (true) {
+            for (int col = left; col <= right; ++col) {
+                res.add(matrix[up][col]);
+            }
+            if (++up > down) {
+                break;
+            }
+            for (int row = up; row <= down; ++row) {
+                res.add(matrix[row][right]);
+            }
+            if (--right < left) {
+                break;
+            }
+            for (int col = right; col >= left; --col) {
+                res.add(matrix[down][col]);
+            }
+            if (--down < up) {
+                break;
+            }
+            for (int row = down; row >= up; --row) {
+                res.add(matrix[row][left]);
+            }
+            if (++left > right) {
+                break;
+            }
+        }
+        return res;
     }
 
 }
