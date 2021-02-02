@@ -4,6 +4,7 @@
 
 package myanswer.backtracking;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -106,6 +107,61 @@ public class No51 {
         System.out.println("花费时间：" + (end - start) + "ms");
         System.out.println(res.size());
 
+    }
+
+
+    public List<List<String>> solveNQueens1(int n) {
+        char[][] board = new char[n][n];
+        for (int i = 0; i < n; i++) {
+            Arrays.fill(board[i], '.');
+        }
+        List<List<String>> res = new LinkedList<>();
+        search(board, res, 0); // 从第0行开始
+        return res;
+    }
+
+    private void search(char[][] board, List<List<String>> res, int row) {
+        if (row == board.length) {
+            res.add(boardToList(board));
+            return;
+        }
+        for (int col = 0; col < board.length; col++) {
+            // 判断当前位置是否可以放置皇后
+            if (isPlaceable(board, row, col)) {
+                board[row][col] = 'Q';
+                search(board, res, row + 1);
+                board[row][col] = '.';
+            }
+        }
+    }
+
+    private List<String> boardToList(char[][] board) {
+        List<String> res = new LinkedList<>();
+        for (char[] chars : board) {
+            res.add(String.valueOf(chars));
+        }
+        return res;
+    }
+
+    private boolean isPlaceable(char[][] board, int row, int col) {
+        for (int i = 0; i < row; i++) {
+            if (board[i][col] == 'Q') {
+                return false;
+            }
+        }
+        // 同一行不需要判断
+        // 判断对角线
+        for (int i = row, j = col; i >= 0 && j >= 0; i--, j--) {
+            if (board[i][j] == 'Q') {
+                return false;
+            }
+        }
+        for (int i = row, j = col; i >= 0 && j < board.length; i--, j++) {
+            if (board[i][j] == 'Q') {
+                return false;
+            }
+        }
+        return true;
     }
 
 
