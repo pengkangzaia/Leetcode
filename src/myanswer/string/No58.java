@@ -49,4 +49,24 @@ public class No58 {
         System.out.println(ans);
     }
 
+    public int lengthOfLastWord1(String s) {
+        char[] chars = s.toCharArray();
+        int nums = 0, right = chars.length - 1;
+        while (right >= 0) {
+            if (chars[right] != ' ') {
+                break;
+            }
+            right--;
+        }
+        while (right >= 0) {
+            if (chars[right] != ' ') {
+                right--;
+                nums++;
+            } else {
+                break;
+            }
+        }
+        return nums;
+    }
+
 }

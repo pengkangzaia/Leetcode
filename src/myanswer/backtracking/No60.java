@@ -48,7 +48,7 @@ public class No60 {
 
     public static void main(String[] args) {
         No60 no60 = new No60();
-        String ans = no60.getPermutation(3, 3);
+        String ans = no60.getPermutation(4, 15);
         System.out.println(ans);
     }
 
