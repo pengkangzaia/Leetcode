@@ -39,13 +39,39 @@ public class No59 {
 
     public static void main(String[] args) {
         No59 no59 = new No59();
-        int[][] ans = no59.generateMatrix(4);
+        int[][] ans = no59.generateMatrix1(3);
         for (int i = 0; i < ans.length; i++) {
             for (int j = 0; j < ans[0].length; j++) {
                 System.out.print(ans[i][j] + " ");
             }
             System.out.println();
         }
+    }
+
+    // 设置四个边界，遍历的同时更新边界
+    public int[][] generateMatrix1(int n) {
+        int[][] res = new int[n][n];
+        int up = 0, down = n - 1, left = 0, right = n - 1;
+        int num = 1;
+        while (true) {
+            for (int i = left; i <= right; i++) {
+                res[up][i] = num++;
+            }
+            if (++up > down) break;
+            for (int i = up; i <= down; i++) {
+                res[i][right] = num++;
+            }
+            if (--right < left) break;
+            for (int i = right; i >= left; i--) {
+                res[down][i] = num++;
+            }
+            if (--down < up) break;
+            for (int i = down; i >= up; i--) {
+                res[i][left] = num++;
+            }
+            if (++left > right) break;
+        }
+        return res;
     }
 
 }
