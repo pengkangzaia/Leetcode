@@ -110,9 +110,35 @@ public class No33 {
 
     public static void main(String[] args) {
         No33 no33 = new No33();
-        int[] nums = {1, 2};
-        int ans = no33.search1(nums, 2);
+        int[] nums = {3, 1};
+        int ans = no33.search1(nums, 1);
         System.out.println(ans);
+    }
+
+    public int search2(int[] nums, int target) {
+        int left = 0, right = nums.length - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) { return mid; }
+            // 左边子数组有序
+            if (nums[left] <= nums[mid]) {
+                if (target <= nums[left] || target >= nums[mid]) {
+                    // 不在左边有序数组中
+                    left = mid + 1;
+                } else{
+                    right = mid - 1;
+                }
+            } else {
+                // 右边数组有序
+                if (target <= nums[mid] || target >= nums[right]) {
+                    // 不在右边有序数组
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
+            }
+        }
+        return -1;
     }
 
 }
