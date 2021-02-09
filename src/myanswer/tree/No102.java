@@ -1,8 +1,6 @@
 package myanswer.tree;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 // 有些条件不满足，未能AC
 public class No102 {
@@ -59,6 +57,28 @@ public class No102 {
         List<List<Integer>> ans = no102.levelOrder(n1);
         System.out.println(ans);
 
+    }
+
+
+    // 层序遍历BFS
+    public List<List<Integer>> levelOrder1(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<>();
+        // 注意特殊情况的判断
+        if (root == null) { return res; }
+        Deque<TreeNode> queue = new ArrayDeque<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            List<Integer> row = new ArrayList<>();
+            for (int i = 0; i < size; i++) {
+                TreeNode node = queue.poll();
+                row.add(node.val);
+                if (node.left != null) { queue.offer(node.left); }
+                if (node.right != null) { queue.offer(node.right); }
+            }
+            res.add(row);
+        }
+        return res;
     }
 
 }

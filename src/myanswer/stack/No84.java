@@ -1,6 +1,8 @@
 package myanswer.stack;
 
 import java.lang.reflect.Proxy;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 /**
  * @FileName: No84.java
@@ -35,6 +37,23 @@ public class No84 {
         int[] h = {2, 1, 5, 6, 2, 3};
         int ans = largestRectangleArea(h);
         System.out.println(ans);
+    }
+
+
+    // 单调栈法
+    public static int largestRectangleArea1(int[] heights) {
+        int[] temp = new int[heights.length + 2];
+        System.arraycopy(heights, 0, temp, 1, heights.length);
+        Deque<Integer> stack = new ArrayDeque<>();
+        int res = 0;
+        for (int i = 0; i < temp.length; i++) {
+            while (!stack.isEmpty() && temp[stack.peek()] > temp[i]) {
+                int index = stack.pop();
+                res = Math.max(res, (i - stack.peek() - 1) * temp[index]);
+            }
+            stack.push(i);
+        }
+        return res;
     }
 
 

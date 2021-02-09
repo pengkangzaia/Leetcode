@@ -104,7 +104,7 @@ public class QuickSort {
             while (left < right && nums[left] <= key) { left++; }
             if (left < right) { swap(nums, left, right); }
         }
-        swap(nums, low, left);
+        swap(nums, low, left); // 这一部分是导致快排不稳定的原因
         sort0112_2(nums, low, left - 1);
         sort0112_2(nums, left + 1, high);
     }

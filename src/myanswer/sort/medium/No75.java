@@ -13,9 +13,9 @@ import java.util.Arrays;
  */
 public class No75 {
     public static void main(String[] args) {
-        int[] nums = {2,0,2,1,1,0};
+        int[] nums = {0,1,2};
         System.out.println(Arrays.toString(nums));
-        sortColors(nums);
+        sortColors1(nums);
         System.out.println(Arrays.toString(nums));
     }
 
@@ -33,7 +33,23 @@ public class No75 {
                 nums[p2--] = 2;
             } else curr++;
         }
+    }
 
+    public static void sortColors1(int[] nums) {
+        int p0 = 0, p2 = nums.length - 1, curr = 0;
+        while (curr <= p2) {
+            if (nums[curr] == 0) {
+                nums[curr] = nums[p0];
+                nums[p0] = 0;
+                p0++;
+            } else if (nums[curr] == 2) {
+                nums[curr] = nums[p2];
+                nums[p2] = 2;
+                p2--;
+                curr--;
+            }
+            curr++;
+        }
     }
 
 
