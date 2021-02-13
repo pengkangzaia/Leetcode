@@ -1,5 +1,6 @@
 package myanswer.array.easy;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -30,7 +31,7 @@ public class No119 {
 
     public static void main(String[] args) {
         No119 no119 = new No119();
-        for (int i = 0; i < 33; i++) {
+        for (int i = 1; i < 33; i++) {
             List<Integer> row = no119.getRow(i);
             System.out.println(row);
         }

@@ -1,5 +1,6 @@
 package myanswer.array.easy;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -36,10 +37,30 @@ public class No448 {
     public static void main(String[] args) {
         No448 no448 = new No448();
         int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};
-        List<Integer> ans = no448.findDisappearedNumbers(nums);
+        List<Integer> ans = no448.findDisappearedNumbers1(nums);
         for (int i = 0; i < ans.size(); i++) {
             System.out.println(ans.get(i));
         }
+    }
+
+
+    public List<Integer> findDisappearedNumbers1(int[] nums) {
+        List<Integer> res = new ArrayList<>();
+        int i = 0;
+        while (i < nums.length) {
+            while (nums[i] != (i+1) && nums[nums[i] - 1] != nums[i]) {
+                int temp = nums[nums[i] - 1];
+                nums[nums[i] - 1] = nums[i];
+                nums[i] = temp;
+            }
+            i++;
+        }
+        for (int j = 0; j < nums.length; j++) {
+            if (nums[j] != j+1) {
+                res.add(j+1);
+            }
+        }
+        return res;
     }
 
 
