@@ -31,4 +31,36 @@ public class No1208 {
     }
 
 
+    public int equalSubstring1(String s, String t, int maxCost) {
+        // 滑动窗口
+        int left = 0, right = 0;
+        int res = Integer.MIN_VALUE;
+        int currCost = 0;
+        while (right < s.length()) {
+            if (s.charAt(right) == t.charAt(right)) {
+                right++;
+            } else {
+                int c = Math.abs(s.charAt(right) - t.charAt(right));
+                if (currCost + c <= maxCost) {
+                    right++;
+                    currCost += c;
+                } else {
+                    while (currCost + c > maxCost) {
+                        currCost -= Math.abs(s.charAt(left) - t.charAt(left));
+                        left++;
+                    }
+                }
+            }
+            res = Math.max(res, right - left);
+        }
+        return res;
+    }
+
+    public static void main(String[] args) {
+        No1208 no1208 = new No1208();
+        int ans = no1208.equalSubstring1("abcd", "bcdf", 3);
+        System.out.println(ans);
+    }
+
+
 }
