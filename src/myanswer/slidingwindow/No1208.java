@@ -1,5 +1,8 @@
 package myanswer.slidingwindow;
 
+import java.util.HashMap;
+import java.util.Scanner;
+
 /**
  * @FileName: No1208.java
  * @Description: 尽可能使字符串相等
@@ -28,6 +31,7 @@ public class No1208 {
             res = Math.max(res, right - left);
         }
         return res;
+
     }
 
 
@@ -61,6 +65,4 @@ public class No1208 {
         int ans = no1208.equalSubstring1("abcd", "bcdf", 3);
         System.out.println(ans);
     }
-
-
 }
