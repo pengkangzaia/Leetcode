@@ -8,6 +8,8 @@ package myanswer.linkedlist.medium;
  */
 public class No445 {
 
+    // 可以用栈来求解
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode r1 = reverse(l1);
         ListNode r2 = reverse(l2);
@@ -16,7 +18,7 @@ public class No445 {
         ListNode curr1 = r1;
         ListNode curr2 = r2;
         int carry = 0;
-        while (curr1 != null && curr2 != null) {
+        while (curr1 != null || curr2 != null) {
             int num = carry + curr1.val + curr2.val;
             curr.next = new ListNode(num % 10);
             carry = num / 10;
