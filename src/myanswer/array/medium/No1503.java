@@ -10,6 +10,7 @@ import java.util.Arrays;
  */
 public class No1503 {
 
+    @Deprecated
     public int getLastMoment(int n, int[] leftPoint, int[] rightPoint) {
         int res = 0;
         int[] left = new int[n + 1]; // 蚂蚁往左移动
@@ -53,6 +54,18 @@ public class No1503 {
         No1503 no1503 = new No1503();
         int ans = no1503.getLastMoment(7, new int[]{}, new int[]{0, 1, 2, 3, 4, 5, 6, 7});
         System.out.println(ans);
+    }
+
+    // 实际上有效的解法
+    public int getLastMoment1(int n, int[] left, int[] right) {
+        int leftMax = -1, rightMin = n + 1;
+        for (int i = 0; i < left.length; i++) {
+            leftMax = Math.max(leftMax, left[i]);
+        }
+        for (int i = 0; i < right.length; i++) {
+            rightMin = Math.min(rightMin, right[i]);
+        }
+        return Math.max(leftMax, n - rightMin);
     }
 
 
