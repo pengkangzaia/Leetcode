@@ -1,5 +1,8 @@
 package mock;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 /**
  * @FileName: MaximumGain.java
  * @Description: MaximumGain.java类说明
@@ -42,13 +45,9 @@ public class MaximumGain {
     }
 
 
-
-
-
-
     public static void main(String[] args) {
         MaximumGain solution = new MaximumGain();
-        int ans = solution.maximumGain("cdbcbbaaabab", 4, 5);
+        int ans = solution.maximumGain1("cdbcbbaaabab", 4, 5);
         String s = "feg";
         // 结束条件：长度小于2，没有a或者没有b
         // 跳出条件：没有ab或者没有ba
@@ -58,6 +57,40 @@ public class MaximumGain {
         // cdbc a b
         // cdbc
         System.out.println(ans);
+    }
+
+
+    // 国际版lc讨论区解法 贪心+栈
+    public int maximumGain1(String s, int x, int y) {
+        if (s == null || s.length() == 0) {
+            return 0;
+        }
+        int score = 0;
+        char[] chars = s.toCharArray();
+        score = x >= y ? x * count(chars, "ab") + y * count(chars, "ba") : y * count(chars, "ba") + x * count(chars, "ab");
+        return score;
+    }
+
+    private int count(char[] chars, String pattern) {
+        int res = 0;
+        Deque<Integer> stack = new LinkedList<>();
+        for (int i = 0; i < chars.length; i++) {
+            if (chars[i] == pattern.charAt(0)) {
+                stack.push(i);
+            } else if (chars[i] == pattern.charAt(1)) {
+                if (!stack.isEmpty()) {
+                    res++;
+                    // 修改char数组
+                    chars[i] = ' ';
+                    chars[stack.pop()] = ' ';
+                }
+            } else if (chars[i] == ' ') {
+                continue;
+            } else {
+                stack.clear();
+            }
+        }
+        return res;
     }
 
 
