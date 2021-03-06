@@ -20,46 +20,28 @@ public class MaximumGain {
 
 
     // abaab
-    // 每一个b最多只能被用一次，要么被x用，要么被y用
+    // 每一个b最多只能被用一次，要么被x用，要么被y用，暴力解法会超时
     public int maximumGain(String s, int x, int y) {
         if (s == null || s.length() == 0) {
             return 0;
         }
         int score = 0;
-        char[] chars = s.toCharArray();
+        StringBuilder sb = new StringBuilder(s);
         String pattern = x >= y ? "ab" : "ba";
         int idx;
-        while ((idx = exist(chars, pattern)) != -1) {
-            remove(chars, idx);
+        while ((idx = sb.indexOf(pattern)) != -1) {
+            sb.delete(idx, idx + 2);
             score += "ab".equals(pattern) ? x : y;
         }
         pattern = x >= y ? "ba" : "ab";
-        while ((idx = exist(chars, pattern)) != -1) {
-            remove(chars, idx);
+        while ((idx = sb.indexOf(pattern)) != -1) {
+            sb.delete(idx, idx + 2);
             score += "ba".equals(pattern) ? y : x;
         }
         return score;
     }
 
-    // 删除两个字母
-    private void remove(char[] chars, int idx) {
-        for (int i = idx; i < chars.length - 2; i++) {
-            chars[i] = chars[i + 2];
-        }
-        for (int i = chars.length - 2; i < chars.length; i++) {
-            chars[i] = '#';
-        }
-    }
 
-    // 判断是否存在
-    private int exist(char[] chars, String pattern) {
-        for (int i = 0; i < chars.length - pattern.length(); i++) {
-            if (chars[i] == pattern.charAt(0) && chars[i + 1] == pattern.charAt(1)) {
-                return i;
-            }
-        }
-        return -1;
-    }
 
 
 
