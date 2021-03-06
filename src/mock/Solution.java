@@ -10,26 +10,40 @@ import java.util.Random;
  */
 public class Solution {
 
+    // 利用前缀和+二分搜索
+
     int[] num;
+    int sum;
 
     public Solution(int[] w) {
-        int sum = 0;
+        num = new int[w.length + 1];
         for (int i = 0; i < w.length; i++) {
-            sum += w[i];
+            num[i + 1] = num[i] + w[i];
         }
-        num = new int[sum];
-        int idx = 0;
-        for (int i = 0; i < w.length; i++) {
-            for (int j = 0; j < w[i]; j++) {
-                num[idx++] = i;
-            }
-        }
+        sum = num[w.length];
     }
 
     public int pickIndex() {
         Random r = new Random();
-        int a = r.nextInt(num.length);
-        return num[a];
+        int a = r.nextInt(sum);
+        return binarySearch(num, a);
+    }
+
+    private int binarySearch(int[] num, int target) {
+        int left = 0, right = num.length - 1;
+        int memo = 0;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (target > num[mid]) {
+                memo = mid;
+                left = mid + 1;
+            } else if (target < num[mid]) {
+                right = mid - 1;
+            } else {
+                return mid;
+            }
+        }
+        return memo;
     }
 
     public static void main(String[] args) {
