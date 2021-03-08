@@ -4,6 +4,7 @@ import myanswer.linkedlist.easy.ListNode;
 import myanswer.linkedlist.hard.No23;
 
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.LinkedList;
 
 /**
@@ -48,12 +49,20 @@ public class NextLargerNodes {
         }
 
         int[] res = new int[array.length];
-        for (int i = 0; i < array.length; i++) {
-            for (int j = i + 1; j < array.length; j++) {
-                if (array[j] > array[i]) {
-                    res[i] = array[j];
-                    break;
-                }
+
+        // 单调栈解法
+        Deque<Integer> stack = new LinkedList<>();
+        // 从后往前压栈，如果当前节点比栈顶小则得到res，否则持续出栈直到栈为空或者栈顶大于当前节点
+        for (int i = array.length - 1; i >= 0; i--) {
+            while (!stack.isEmpty() && stack.peek() <= array[i]) {
+                stack.pop();
+            }
+            if (stack.isEmpty()) {
+                stack.push(array[i]);
+                res[i] = 0;
+            } else if (stack.peek() > array[i]) {
+                res[i] = stack.peek();
+                stack.push(array[i]);
             }
         }
         return res;
