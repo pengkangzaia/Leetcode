@@ -1,5 +1,10 @@
 package myanswer.string.medium;
 
+import myanswer.queue.ArrayQueue;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 /**
  * @FileName: No388.java
  * @Description: 文件的最长绝对路径
@@ -24,6 +29,7 @@ public class No388 {
                 sum[level] = sum[level - 1] + len + 1;  //是目录，要+1，目录有个/的
             }
         }
+
         return res;
     }
 
