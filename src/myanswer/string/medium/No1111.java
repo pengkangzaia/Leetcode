@@ -1,5 +1,7 @@
 package myanswer.string.medium;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Stack;
 
 /**
@@ -43,6 +45,23 @@ public class No1111 {
         for (int i = 0; i < ans.length; i++) {
             System.out.println(ans[i]);
         }
+    }
+
+
+
+    public int[] maxDepthAfterSplit1(String seq) {
+        int[] res = new int[seq.length()];
+        Deque<Character> stack = new ArrayDeque<>();
+        for (int i = 0; i < seq.length(); i++) {
+            if (seq.charAt(i) == '(') {
+                res[i] = stack.size() % 2;
+                stack.push('(');
+            } else {
+                stack.pop();
+                res[i] = stack.size() % 2; // 和前面的(的值是一样的
+            }
+        }
+        return res;
     }
 
 
