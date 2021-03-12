@@ -32,6 +32,14 @@ public class User implements Serializable {
         this.name = name;
     }
 
+    public User() {
+    }
+
+    public User(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
     @Override
     public String toString() {
         return "User{" +
