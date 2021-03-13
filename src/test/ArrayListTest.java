@@ -1,6 +1,9 @@
 package test;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
 
 /**
  * @FileName: ArrayListTest.java
@@ -28,6 +31,21 @@ public class ArrayListTest {
         for (int i = 0; i < ans.length; i++) {
             System.out.println(ans[i]);
         }
+
+        /*System.out.println("=====================分割线=====================");
+        Set<Integer> collection = new HashSet<>();
+        collection.add(1);
+        boolean isRemoved = list.removeAll(collection);
+        System.out.println(isRemoved);*/
+
+        System.out.println("=====================分割线=====================");
+        Iterator<Integer> iterator = list.iterator();
+        while (iterator.hasNext()) {
+            iterator.remove();
+        }
+        System.out.println(list);
+
+
     }
 
 
