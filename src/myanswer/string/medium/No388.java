@@ -1,9 +1,5 @@
 package myanswer.string.medium;
 
-import myanswer.queue.ArrayQueue;
-
-import java.util.ArrayDeque;
-import java.util.Deque;
 
 /**
  * @FileName: No388.java
