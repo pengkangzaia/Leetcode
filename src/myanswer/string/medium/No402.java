@@ -24,6 +24,7 @@ public class No402 {
             if (stack.isEmpty() || (k > 0 && stack.peek() <= chars[i])) {
                 stack.push(chars[i]);
             } else {
+                // 重点是这一句，只要大于当前字符就出栈
                 while (k > 0 && !stack.isEmpty() && stack.peek() > chars[i]) {
                     k--;
                     stack.pop();
