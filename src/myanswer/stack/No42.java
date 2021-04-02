@@ -87,11 +87,11 @@ public class No42 {
     public static void main(String[] args) {
         No42 no42 = new No42();
         int[] nums = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
-        int ans = no42.trap(nums);
+        int ans = no42.trap3(nums);
         System.out.println(ans);
     }
 
-    // 接雨水，暴力解法。对每个元素，分别从当前元素向左，和从当前元素向由查找最大的元素然后差值
+    // 接雨水，暴力解法。对每个元素，分别从当前元素向左，和从当前元素向右由查找最大的元素然后差值
     public int trap1(int[] height) {
         int n = height.length;
         int ans = 0;
@@ -133,6 +133,32 @@ public class No42 {
             ans = Math.min(max_left[i - 1], max_right[i + 1]) - height[i];
         }
         return ans;
+    }
+
+
+    /**
+     * 2021/04/03 每日一题
+     * @param height
+     * @return
+     */
+    public int trap3(int[] height) {
+        // 暴力解法
+        if (height == null || height.length == 0) {
+            return 0;
+        }
+        int res = 0;
+        for (int i = 1; i <= height.length - 2; i++) {
+            int right = height[i], left = height[i];
+            for (int j = i; j >= 0; j--) {
+                right = Math.max(right, height[j]);
+            }
+            for (int j =i; j <= height.length - 1; j++) {
+                left = Math.max(left, height[j]);
+            }
+            int h = Math.min(right, left) - height[i];
+            res += h;
+        }
+        return res;
     }
 
 }
