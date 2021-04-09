@@ -1,6 +1,6 @@
 package test;
 
-import org.junit.Test;
+
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -8,7 +8,7 @@ import java.util.Comparator;
 
 public class CompareTest {
 
-    @Test
+
     public void test1() {
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
         arrayList.add(-1);

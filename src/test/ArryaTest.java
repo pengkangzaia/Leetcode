@@ -1,12 +1,12 @@
 package test;
 
-import org.junit.Test;
+
 
 import java.util.Arrays;
 
 public class ArryaTest {
 
-    @Test
+
     public void test1() {
         // *************排序 sort****************
         int a[] = { 1, 3, 2, 7, 6, 5, 4, 9 };
