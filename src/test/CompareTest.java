@@ -10,7 +10,7 @@ public class CompareTest {
 
 
     public void test1() {
-        ArrayList<Integer> arrayList = new ArrayList<Integer>();
+        ArrayList<Integer> arrayList = new ArrayList<>();
         arrayList.add(-1);
         arrayList.add(3);
         arrayList.add(3);
@@ -30,12 +30,7 @@ public class CompareTest {
         System.out.println("Collections.sort(arrayList):");
         System.out.println(arrayList);
         // 定制排序的⽤法
-        Collections.sort(arrayList, new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return o2.compareTo(o1);
-            }
-        });
+        arrayList.sort(Comparator.reverseOrder());
         System.out.println("定制排序后：");
         System.out.println(arrayList);
     }
