@@ -9,6 +9,7 @@ public class No55 {
     }
 
     public static boolean canJump(int[] nums) {
+        // 如果一个位置能够到达，那么这个位置左侧所有位置都能到达
         int max_index = 0;
         for (int i = 0; i < nums.length; i++) {
             if (i > max_index) return false;
