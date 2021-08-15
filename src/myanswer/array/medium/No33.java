@@ -113,6 +113,7 @@ public class No33 {
         int[] nums = {3, 1};
         int ans = no33.search1(nums, 1);
         System.out.println(ans);
+        Node node = new Node(1);
     }
 
     public int search2(int[] nums, int target) {
@@ -141,4 +142,14 @@ public class No33 {
         return -1;
     }
 
+
+
+
+}
+
+class Node {
+    int val;
+    public Node(int val) {
+        this.val = val;
+    }
 }
