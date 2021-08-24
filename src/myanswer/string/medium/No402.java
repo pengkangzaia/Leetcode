@@ -62,11 +62,23 @@ public class No402 {
 
 
     public static void main(String[] args) {
-        String num = "5337";
+        String num = "50337";
         int k = 2;
         No402 no402 = new No402();
-        String ans = no402.removeKdigits(num, k);
+        String ans = no402.removeKdigits1(num, k);
         System.out.println(ans);
+    }
+
+    public String removeKdigits1(String num, int k) {
+        if (num.length() == k) return "0";
+        StringBuilder s = new StringBuilder(num);
+        for (int i = 0; i < k; i++) {
+            int idx = 0;
+            for (int j = 1; j < s.length() && s.charAt(j) >= s.charAt(j - 1); j++) idx = j;
+            s.delete(idx, idx + 1);
+            while (s.length() > 1 && s.charAt(0) == '0') s.delete(0, 1);
+        }
+        return s.toString();
     }
 
 

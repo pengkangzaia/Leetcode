@@ -26,6 +26,7 @@ public class No5844 {
             int ans = no5844.minNonZeroProduct(i);
             System.out.println(i + "----" + ans);
         }
+        String s = "age";
 
 
     }
